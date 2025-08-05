@@ -1,0 +1,65 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+    int x;
+    int y;
+    cout<<"enter the value of x ";
+    cin>>x;
+    cout<<"enter the value of y ";
+    cin>>y;
+    if(x > 0)
+    {
+        if(y > 0)
+        {
+            cout<<" the point is in 1st quadrant";
+        }
+        else if (y<0)
+        {
+            cout<<" the point is in 4th quadrant";
+        }
+        else
+        {
+            cout<<" the point is in x axis ";
+        }
+    }
+    else if(x<0)
+    {
+        if(y>0)
+        {
+            cout<<"the point is in 2nd quadrant";
+        }
+        else if(y<0)
+        {
+            cout<<"the point is in 3rd quadrant";
+        }
+        else
+        {
+            cout<<"the point is in x axis";
+        }
+    }
+    else if (x=0)
+    {
+        if (y>0)
+        {
+            cout<<"the point is in y axis";
+        
+            
+        }
+        else if(y<0)
+        {
+            cout<<"the point is in y axis";
+        }
+        else
+        {
+            cout<<"the point is in origin";
+        }
+    }
+return 0;
+
+}
+
+OUTPUT:
+enter the value of x 5
+enter the value of y 4
+the point is in 1st quadrant
