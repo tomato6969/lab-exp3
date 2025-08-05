@@ -1,0 +1,58 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+    // Write C++ code here
+   int m1,m2,m3,m4,m5,total;
+   float avg;
+   cout<<"enter the m1 ";
+   cin>>m1;
+   cout<<"enter the m2 ";
+   cin>>m2;
+   cout<<"enter the m3 ";
+   cin>>m3;
+   cout<<"enter the m4 ";
+   cin>>m4;
+   cout<<"enter the m5 ";
+   cin>>m5;
+   total=(m1+m2+m3+m4+m5);
+   avg=(total/5);
+   if(100<avg<=90)
+   {
+       cout<<"the grade is O ";
+   }
+   else if(90<avg<=80)
+   {
+       cout<<"the grade is A+";
+   }
+   else if(80<avg<=70)
+   {
+       cout<<"the grade is A";
+   }
+   else if(70<avg<=60)
+   {
+       cout<<"the grade is B+";
+   }
+   else if(60<avg<=50)
+   {
+       cout<<"the grade is B";
+   }
+   else if(40<avg<=30)
+   {
+       cout<<"the grade is C";
+   }
+   else
+   {
+       cout<<" the student is failed ";
+   }
+return 0;
+
+}
+
+OUTPUT :
+enter the m1 89
+enter the m2 90
+enter the m3 89
+enter the m4 79
+enter the m5 75
+the grade is O
